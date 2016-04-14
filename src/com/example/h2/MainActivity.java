@@ -321,6 +321,7 @@ public class MainActivity extends Activity {
 		cancelAlarmManagerBR();
 		bt1.setEnabled(true);
 		bt2.setEnabled(true);
+		bt7.setEnabled(true);
 
 	}
 
@@ -332,6 +333,7 @@ public class MainActivity extends Activity {
 		bt3.setEnabled(true);
 		bt4.setEnabled(true);
 		bt6.setEnabled(true);
+	
 		tv.setText("敌军还有5秒到达战场，碾碎他们");
 		tv2.setText("敌军还有5秒到达战场，碾碎他们");
 

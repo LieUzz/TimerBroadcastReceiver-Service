@@ -67,14 +67,6 @@
                     android:layout_marginTop="41dp"
                     android:text="敌军还有5秒到达战场，碾碎他们" />
 
-                <Button
-                    android:id="@+id/button6"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_alignLeft="@+id/button4"
-                    android:layout_alignParentBottom="true"
-                    android:text="取消定时服务" />
-
                 <TextView
                     android:id="@+id/textView2"
                     android:layout_width="wrap_content"
@@ -82,5 +74,13 @@
                     android:layout_alignLeft="@+id/textView1"
                     android:layout_alignParentTop="true"
                     android:text="敌军还有5秒到达战场，碾碎他们" />
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/button4"
+                    android:layout_below="@+id/button4"
+                    android:text="取消定时服务" />
 
 </RelativeLayout>
